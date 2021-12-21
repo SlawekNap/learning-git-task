@@ -10,3 +10,9 @@ for sklep in słownik:
     print(f'Idę do {sklep.upper()}, kupuję tu następujące {słownik.get(sklep)}'),
 Ilość_zakupów_w_sklepie = (len(słownik.get("Piekarnia")))+(len(słownik.get("Warzywniak")))
 print(f"W sumie kupuję {Ilość_zakupów_w_sklepie} produktów.")
+
+print("")
+print("commit nr 1 na Git Hub")
+for x in range(1,100):
+    if x >= 80:
+        print(x)
