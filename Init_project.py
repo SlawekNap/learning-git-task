@@ -16,3 +16,9 @@ print("commit nr 1 na Git Hub")
 for x in range(1,100):
     if x >= 80:
         print(x)
+print("")
+print("2 komit do zadnia")
+list = {1:100}
+for x in list:
+    print(x)
+
